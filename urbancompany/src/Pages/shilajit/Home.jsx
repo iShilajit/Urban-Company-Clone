@@ -21,20 +21,20 @@ const Home = () => {
   const handleChange = (value) => {
     setCity(value);
     localStorage.setItem("location", value);
-    navigate(`/${value}`);
+    navigate(`/allservices`);
   };
   return (
     <div>
       <Box>
       <Navbar/>
-      <Box className="hero" pos={"relative"}>
+      <Box  pos={"relative"}>
       <Image w={"56%"} src={mainimg} />
       <Box
           width={"100%"}
           height={"100%"}
           
           className="text"
-          fontWeight={"bold"}
+          
           pos={"absolute"}
           right="0.5"
           top={"0.5"}
