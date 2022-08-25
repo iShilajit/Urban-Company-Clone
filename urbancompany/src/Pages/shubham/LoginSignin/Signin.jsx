@@ -99,7 +99,8 @@ const Signin = () => {
       ) : (
         <div>
           <button ref={btnRef} colorScheme="teal" onClick={onOpen}>
-            <i style={{ fontSize: "20px" }} class="fa-regular fa-user"></i>
+            {/* person button */}
+            <i style={{ fontSize: "20px" }} class="fa-regular fa-user"></i> 
           </button>
           <Drawer
             isOpen={isOpen}
