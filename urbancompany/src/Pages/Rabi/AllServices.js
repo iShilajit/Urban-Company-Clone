@@ -13,10 +13,13 @@ import k from "./logoes/home repairs.png";
 import { Flex, Box } from "@chakra-ui/react";
 import HomeServices from "../../Components/Rabi/HomeServices";
 import OfferPage from "../../Components/Rabi/OfferPage";
+import NewCategoryLunches from "../../Components/Rabi/NewCategoryLunches";
+import Appliances from "../../Components/Rabi/Appliances";
+import { SalonServices } from "../../Components/Rabi/SalonServices";
 
 const AllServices = () => {
   return (
-    <>
+    <Box bgColor="#f2f4f6">
       <Box>
         <Box>
           <img
@@ -140,7 +143,10 @@ const AllServices = () => {
       </Box>
       <HomeServices />
       <OfferPage />
-    </>
+      <NewCategoryLunches />
+      <Appliances />
+      <SalonServices />
+    </Box>
   );
 };
 
