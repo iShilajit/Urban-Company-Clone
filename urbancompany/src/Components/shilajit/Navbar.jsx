@@ -91,7 +91,7 @@ export default function Navbar() {
               as={"nav"}
               spacing={20}
               display={{ base: "none", md: "flex" }}
-              // border={"1px solid red"}
+              
             >
               {Links.map((link, index) => (
                 <RouterLink to={link.link} key={index}>
