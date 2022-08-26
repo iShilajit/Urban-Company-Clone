@@ -5,11 +5,11 @@ import c from "./logoes/hair skin and nails.png";
 import d from "./logoes/women's therapies.png";
 import e from "./logoes/salon for men.png";
 import f from "./logoes/men's therapies.png";
-import g from "./logoes/appliance_repair.png";
-import h from "./logoes/Home painting.png";
-import i from "./logoes/cleaning & pest.png";
-import j from "./logoes/disinfecion.png";
-import k from "./logoes/home repairs.png";
+// import g from "./logoes/appliance_repair.png";
+// import h from "./logoes/Home painting.png";
+// import i from "./logoes/cleaning & pest.png";
+// import j from "./logoes/disinfecion.png";
+// import k from "./logoes/home repairs.png";
 import { Flex, Box } from "@chakra-ui/react";
 import HomeServices from "../../Components/Rabi/HomeServices";
 import OfferPage from "../../Components/Rabi/OfferPage";
@@ -66,9 +66,11 @@ const AllServices = () => {
             <Box>
               <input
                 style={{
+                  padding:"15px",
                   marginLeft: "20px",
                   height: "70px",
                   width: "700px",
+                  textTransform: "capitalize",
                   borderRadius: "5px",
                 }}
                 type="text"
