@@ -3,6 +3,7 @@ import Beauty from './Beauty'
 import Blog from './Blog'
 import Blogslider from './Blogslider'
 import Bolgnav from './Bolgnav'
+import Lifestyle from './Lifestyle'
 import Wedding from './Wedding'
 
 const Final = () => {
@@ -13,6 +14,7 @@ const Final = () => {
       <Blogslider/>
       <Beauty/>
       <Wedding/>
+      <Lifestyle/>
     </div>
   )
 }
