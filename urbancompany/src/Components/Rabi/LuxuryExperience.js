@@ -1,14 +1,15 @@
 import React from 'react';
 import { Flex, Box } from "@chakra-ui/react";
-import a from "../../Pages/Rabi/images/instantvideoconsult.jpg";
-import b from "../../Pages/Rabi/images/geyser.jpg";
-import c from "../../Pages/Rabi/images/waterpurifier.jpg";
-import d from "../../Pages/Rabi/images/airpurifier.jpg";
+import a from "../../Pages/Rabi/images/salonluxe.jpg";
+import b from "../../Pages/Rabi/images/salonformenroyal.jpg";
+import c from "../../Pages/Rabi/images/spaluxe.jpg";
+import d from "../../Pages/Rabi/images/megformenroyal.jpg";
 
-const Appliances = () => {
+const LuxuryExperience = () => {
   return (
     <Box height="550px">
-      <h1 style={{ fontSize: "50px" }}>Appliances</h1>
+      <h1 style={{ fontSize: "50px" }}>UC Luxury Experience</h1>
+      <p>Top Professionals | Best Brands | Premium Experience</p>
       <Flex mt="100px" ml="180px" gap="50px">
         <Box>
           <img
@@ -17,8 +18,7 @@ const Appliances = () => {
             alt="Big Home Rush"
             src={a}
           ></img>
-          <p>Expert Counselling</p>
-          <p>Advanced Skin Treatments</p>
+          <p>Salon Luxe</p>
         </Box>
         <Box>
           <img
@@ -27,7 +27,7 @@ const Appliances = () => {
             alt="Big Home Rush"
             src={b}
           ></img>
-          <p>Furniture Making, Upholstery & Polish</p>
+          <p>Salon For Men Royal</p>
         </Box>
         <Box>
           <img
@@ -36,8 +36,7 @@ const Appliances = () => {
             alt="Big Home Rush"
             src={c}
           ></img>
-          <p>Air Purifier</p>
-          <p>Flat ₹100 off</p>
+          <p>Spa Luxe</p>
         </Box>
         <Box>
           <img
@@ -46,11 +45,11 @@ const Appliances = () => {
             alt="Big Home Rush"
             src={d}
           ></img>
-          <p style={{textAlign:"center"}}>Buy RO Water Purifier</p>
+          <p>Message Therapy For Men Royal</p>
         </Box>
       </Flex>
     </Box>
   )
 }
 
-export default Appliances
+export default LuxuryExperience
