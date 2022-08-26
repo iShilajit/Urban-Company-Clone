@@ -16,6 +16,10 @@ import OfferPage from "../../Components/Rabi/OfferPage";
 import NewCategoryLunches from "../../Components/Rabi/NewCategoryLunches";
 import Appliances from "../../Components/Rabi/Appliances";
 import { SalonServices } from "../../Components/Rabi/SalonServices";
+import { CleaningAndPestControl } from "../../Components/Rabi/CleaningAndPestControl";
+import LuxuryExperience from "../../Components/Rabi/LuxuryExperience";
+import HomeRepair from "../../Components/Rabi/HomeRepair";
+
 
 const AllServices = () => {
   return (
@@ -146,6 +150,9 @@ const AllServices = () => {
       <NewCategoryLunches />
       <Appliances />
       <SalonServices />
+      <CleaningAndPestControl />
+      <LuxuryExperience />
+      <HomeRepair />
     </Box>
   );
 };

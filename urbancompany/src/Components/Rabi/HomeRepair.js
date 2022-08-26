@@ -1,14 +1,18 @@
 import React from 'react';
 import { Flex, Box } from "@chakra-ui/react";
-import a from "../../Pages/Rabi/images/instantvideoconsult.jpg";
-import b from "../../Pages/Rabi/images/geyser.jpg";
-import c from "../../Pages/Rabi/images/waterpurifier.jpg";
-import d from "../../Pages/Rabi/images/airpurifier.jpg";
+import a from "../../Pages/Rabi/images/furnituremaking.jpg";
+import b from "../../Pages/Rabi/images/carpenter.jpg";
+import c from "../../Pages/Rabi/images/electronics.jpg";
+import d from "../../Pages/Rabi/images/plumber.jpg";
+import e from "../../Pages/Rabi/images/insuranceprotection.jpg";
+import f from "../../Pages/Rabi/images/antidiscrimation.jpg";
+import g from "../../Pages/Rabi/images/skillindia.jpg";
 
-const Appliances = () => {
+
+const HomeRepair = () => {
   return (
-    <Box height="550px">
-      <h1 style={{ fontSize: "50px" }}>Appliances</h1>
+    <Box height="1300px">
+      <h1 style={{ fontSize: "50px" }}>Home Repairs</h1>
       <Flex mt="100px" ml="180px" gap="50px">
         <Box>
           <img
@@ -17,8 +21,7 @@ const Appliances = () => {
             alt="Big Home Rush"
             src={a}
           ></img>
-          <p>Expert Counselling</p>
-          <p>Advanced Skin Treatments</p>
+          <p>Furniture Making, Upholstery & Polish1</p>
         </Box>
         <Box>
           <img
@@ -27,7 +30,7 @@ const Appliances = () => {
             alt="Big Home Rush"
             src={b}
           ></img>
-          <p>Furniture Making, Upholstery & Polish</p>
+          <p>Carpenters</p>
         </Box>
         <Box>
           <img
@@ -36,8 +39,7 @@ const Appliances = () => {
             alt="Big Home Rush"
             src={c}
           ></img>
-          <p>Air Purifier</p>
-          <p>Flat ₹100 off</p>
+          <p>Electronics</p>
         </Box>
         <Box>
           <img
@@ -46,11 +48,14 @@ const Appliances = () => {
             alt="Big Home Rush"
             src={d}
           ></img>
-          <p style={{textAlign:"center"}}>Buy RO Water Purifier</p>
+          <p>Plumbers</p>
         </Box>
       </Flex>
+      <img style={{marginTop:"100px"}} src={e}/>
+      <img style={{marginTop:"30px"}} src={f}/>
+      <img style={{marginTop:"30px"}} src={g}/>
     </Box>
   )
 }
 
-export default Appliances
+export default HomeRepair
