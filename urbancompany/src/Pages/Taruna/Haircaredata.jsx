@@ -4,7 +4,7 @@ import {  Box, Flex, Image, Text, Heading} from '@chakra-ui/react'
 import styles from "./Blognav.module.css"
 const Haircaredata = () => {
   return (
-    <Box h="2000px"  ml="400px" mr="450px" mt="50px" textAlign={"left"}>
+    <Box h="2100px"  ml="400px" mr="450px" mt="50px" textAlign={"left"}>
       
       <Box mb="20px">
         <Flex gap="30px">

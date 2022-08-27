@@ -1,7 +1,7 @@
 import React from 'react'
 import { Flex, Box, Image, Spacer } from '@chakra-ui/react'
 import {Icon, Search2Icon,Bag2Icon } from '@chakra-ui/icons'
-
+import { Link as Routerback } from 'react-router-dom'
 
 
 const Blog = () => {
@@ -14,8 +14,12 @@ const Blog = () => {
       <Box w="33.4%" h='10'>
       </Box> 
  
+
       <Box w="33.3%" h='10' >
+ <Routerback to="/">
+        
         <Image h="140px" src='https://de927adv5b23k.cloudfront.net/wp-content/uploads/2019/05/24170311/TheUrbanGuideLogo_UrbanCompany_Transparent_Big-Copy-Copy.png' alt='urban_company_blog' />
+ </Routerback>
       </Box> 
     
       <Box  w="33.3%" >
