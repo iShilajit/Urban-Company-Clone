@@ -1,43 +1,45 @@
 
+
 import React from 'react'
 import  styles from "./Blognav.module.css"
 import { Heading, Box, Flex, Image, Text } from '@chakra-ui/react'
-const Wedding = () => {
+
+function Lifestyle() {
   return (
-    <Box pl="100px" pr="100px"  h="1400px" textAlign={"left"} >
+    <Box pl="100px" pr="100px"  h="1000px" textAlign="left" >
      <Flex gap="30px">
       {/* Box1  */}
       <Box w="33.5%" >
       <Heading as='h1'size='lg' mt="5px">
-      Weddings
+      Lifestyle
        </Heading>
        <Box mt="20px" mb="30px">
        <hr  className={styles.hrr} />
      </Box>
      <Box>
-      <Image src="https://de927adv5b23k.cloudfront.net/wp-content/uploads/2019/08/04145906/Fotowalle2-1.jpg-min-1.jpg"></Image>
+      <Image src="https://de927adv5b23k.cloudfront.net/wp-content/uploads/2020/08/25222436/Lotus-pose-1.jpg"></Image>
      </Box>
      <Box pt="45px">
-          <Text fontSize="13px" color={"gray"}>AUGUST 19, 2019</Text>
+          <Text fontSize="13px" color={"gray"}>AUGUST 25, 2020</Text>
      </Box>
     <Box pt="15px">
-          <Heading as="h2"size='xl' className={styles.uu}>20 Wedding Saree Ideas To Inspire You!</Heading>
+          <Heading as="h2"size='xl' className={styles.uu}>Yoga for PCOS: 6 Asanas to Treat PCOS</Heading>
     </Box>
-    <Text mt="15px" fontSize="18px" w="450px" >
-    That, there is no match to the grace and elegance of an Indian saree, is old news. No wonder generations of women opted for the timeless nine yards on their wedding days…
+    <Text mt="15px" fontSize="18px" w="450px"  >
+    Polycystic ovary syndrome (PCOS) is a common hormonal problem that affects 1 out of 10 women globally. However, did you know that yoga is a great way to treat PCOS and facilitate…
                     </Text>
                     <Box mt="50px">
             <Box>
                  
                  <Flex gap="20px">
                     <Box>
-                        <Image w="100px" pt="10px" h="100px" src="https://de927adv5b23k.cloudfront.net/wp-content/uploads/2019/07/04140709/New-latest-green-floral-Mandap-decor-by-Bhoomi-wedding-planners-1-min-900x600.jpg"></Image>
+                        <Image w="100px" pt="10px" h="100px" src="https://de927adv5b23k.cloudfront.net/wp-content/uploads/2020/08/19164510/sarvangasana-768x384.jpg"></Image>
                     </Box>
                     
                     <Box>
                         
                         <Box mt="7px">
-                            <Text fontSize="12px" className={styles.uu} >7 Mandap Decor Designs Based On The Foliage & Greenery Trend</Text>
+                            <Text fontSize="12px" className={styles.uu} >Yoga for Thyroid: Different Asanas </Text>
                         </Box>
                     </Box>
                 
@@ -50,12 +52,12 @@ const Wedding = () => {
             <Box>
             <Flex gap="20px">
                     <Box>
-                        <Image w="100px" pt="10px" h="100px" src="https://de927adv5b23k.cloudfront.net/wp-content/uploads/2019/07/04141033/Super-minimal-bridal-makeup-with-red-lehenga-min-900x903.jpg"></Image>
+                        <Image w="100px" pt="10px" h="100px" src="https://de927adv5b23k.cloudfront.net/wp-content/uploads/2020/08/11214317/getty_489911566_109668-768x432.jpg"></Image>
                     </Box>
                     <Box>
                         
                         <Box mt="7px">
-                            <Text fontSize="12px" className={styles.uu} >5 Brides Who Chose To Go Super Minimal With Their Makeup & Looked Fabulous!</Text>
+                            <Text fontSize="12px" className={styles.uu} >Health Benefits of Anulom Vilom Pranayama</Text>
                         </Box>
                     </Box>
                  </Flex>
@@ -66,12 +68,12 @@ const Wedding = () => {
             <Box>
             <Flex gap="20px">
                     <Box>
-                        <Image w="100px" h="100px" pt="10px" src="https://de927adv5b23k.cloudfront.net/wp-content/uploads/2019/05/30140559/Indoor-stage-House-on-the-clouds-wedding-stage-decor-ideas-for-Indian-weddings-900x1024.jpg"></Image>
+                        <Image w="100px" h="100px" pt="10px" src="https://de927adv5b23k.cloudfront.net/wp-content/uploads/2019/11/26170723/yoga-poses-to-900x506.jpg"></Image>
                     </Box>
                     <Box>
                         
                         <Box mt="7px">
-                            <Text fontSize="12px" className={styles.uu} >Stage Decor Ideas for Smaller Functions (Engagement, Cocktail, Sangeet!)</Text>
+                            <Text fontSize="12px" className={styles.uu} >6 Yoga Asanas To Help You Burn Your Belly Fat</Text>
                         </Box>
                     </Box>
                  </Flex>
@@ -83,12 +85,12 @@ const Wedding = () => {
             <Box>
             <Flex gap="20px">
                     <Box>
-                        <Image w="100px" h="100px" pt="10px" src="https://de927adv5b23k.cloudfront.net/wp-content/uploads/2020/08/24091358/kama-480x480.png"></Image>
+                        <Image w="100px" h="100px" pt="10px" src="https://de927adv5b23k.cloudfront.net/wp-content/uploads/2019/11/26132622/intermittent-fasting-women-768x549.jpg"></Image>
                     </Box>
                     <Box>
                       
                         <Box mt="7px">
-                            <Text fontSize="12px" className={styles.uu} >14 Best Stage Decoration Ideas For Indian Weddings!</Text>
+                            <Text fontSize="12px" className={styles.uu} >Is Intermittent Fasting Safe For Women?</Text>
                         </Box>
                     </Box>
                  </Flex>
@@ -109,30 +111,31 @@ const Wedding = () => {
        <hr  className={styles.hrr} />
      </Box>
      <Box>
-      <Image src="https://de927adv5b23k.cloudfront.net/wp-content/uploads/2020/09/29170111/Untitled-design-1-2.jpg"></Image>
+      <Image src="https://de927adv5b23k.cloudfront.net/wp-content/uploads/2020/09/03122055/best-dandruff-shampoo-for-men-1024x459.jpg"></Image>
      </Box>
      <Box pt="45px">
-                    <Text fontSize="13px" color={"gray"}>SEPTEMBER 29, 2020</Text>
+                    <Text fontSize="13px" color={"gray"}>SEPTEMBER 3, 2020</Text>
                 </Box>
                 <Box pt="15px">
-                        <Heading as="h2"size='xl' className={styles.uu}>Wallpapers and Stencils Are a Great Way to Go, Here’s Why</Heading>
+                        <Heading as="h2"size='xl' className={styles.uu}>How To Prevent Dandruff In Men</Heading>
                     </Box>
 
                     <Text mt="15px" fontSize="18px" w="450px" >
-                    What’s a cost-effective but great way to get statement walls? You guessed it. Both wallpapers and stencils for walls are great to break the monotony of solid coloured walls. Have doubts? Let…
+                    Dandruff is a common problem faced by people across the globe. Men are more frequent victims of this condition. Although the flaking of skin (particularly on the scalp) is the primary symptom, …
                     </Text>
                     <Box mt="50px">
             <Box>
                  
                  <Flex gap="20px">
                     <Box>
-                        <Image w="100px" pt="10px" h="100px" src="https://de927adv5b23k.cloudfront.net/wp-content/uploads/2020/09/17134553/Untitled-design-2-1-300x224.jpg"></Image>
+                        <Image w="100px" pt="10px" h="100px" src="https://de927adv5b23k.cloudfront.net/wp-content/uploads/2020/08/31123313/gettyimages-969461630-1591042184-768x432.jpg"></Image>
                     </Box>
                     
                     <Box>
                        
                         <Box mt="7px">
-                            <Text fontSize="12px"  className={styles.uu}>All You Need to Know About Enamel Painting</Text>
+                            <Text fontSize="12px" className={styles.uu}>
+Men’s Hair Colouring: Home or Salon?</Text>
                         </Box>
                     </Box>
                 
@@ -145,12 +148,12 @@ const Wedding = () => {
             <Box>
             <Flex gap="20px">
                     <Box>
-                        <Image w="100px" pt="10px" h="100px" src="https://de927adv5b23k.cloudfront.net/wp-content/uploads/2020/09/14153741/Untitled-design-768x432.jpg"></Image>
+                        <Image w="100px" pt="10px" h="100px" src="https://de927adv5b23k.cloudfront.net/wp-content/uploads/2020/08/27112636/287259_2565891_updates.jpg"></Image>
                     </Box>
                     <Box>
                        
                         <Box mt="7px">
-                            <Text fontSize="12px" className={styles.uu}>Wood Polishing: All You Need to Know</Text>
+                            <Text fontSize="12px" className={styles.uu} >Men’s Hairstyles—3 Classics and How to Do Them</Text>
                         </Box>
                     </Box>
                  </Flex>
@@ -161,12 +164,13 @@ const Wedding = () => {
             <Box>
             <Flex gap="20px">
                     <Box >
-                        <Image w="100px" h="100px" pt="10px" src="https://de927adv5b23k.cloudfront.net/wp-content/uploads/2020/09/08173613/waterproof-300x224.jpg"></Image>
+                        <Image w="100px" h="100px" pt="10px" src="https://de927adv5b23k.cloudfront.net/wp-content/uploads/2020/04/27120932/sideburns.jpg.jpg"></Image>
                     </Box>
                     <Box>
                        
                         <Box mt="7px">
-                            <Text fontSize="12px" className={styles.uu}>Textured Walls: Everything You Need to Know</Text>
+                            <Text fontSize="12px" className={styles.uu} >
+Learn How to Trim Your Beard At Home!</Text>
                         </Box>
                     </Box>
                  </Flex>
@@ -178,12 +182,12 @@ const Wedding = () => {
             <Box>
             <Flex gap="20px">
                     <Box>
-                        <Image w="100px" h="100px" pt="10px" src="https://de927adv5b23k.cloudfront.net/wp-content/uploads/2020/09/08175019/waterproofsx-768x432.jpg"></Image>
+                        <Image w="100px" h="100px" pt="10px" src="https://de927adv5b23k.cloudfront.net/wp-content/uploads/2019/12/20192845/The-Man-Company-Beard-Oil-480x480.jpg"></Image>
                     </Box>
                     <Box>
                        
                         <Box mt="7px">
-                            <Text fontSize="12px" className={styles.uu} >Waterproofing Your Walls: All You Need to Know</Text>
+                            <Text fontSize="12px" className={styles.uu} >The Best Beard Oil In India</Text>
                         </Box>
                     </Box>
                  </Flex>
@@ -200,4 +204,4 @@ const Wedding = () => {
   )
 }
 
-export default Wedding
+export default Lifestyle

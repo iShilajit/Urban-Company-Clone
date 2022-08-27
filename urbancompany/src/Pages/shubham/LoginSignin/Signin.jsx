@@ -10,13 +10,7 @@ import {
   Button,
   Input,
   useDisclosure,
-  Modal,
-  ModalOverlay,
-  ModalContent,
-  ModalHeader,
-  ModalFooter,
-  ModalBody,
-  ModalCloseButton,
+
 } from "@chakra-ui/react";
 import Login from './Login'
 
@@ -24,7 +18,7 @@ import { useNavigate } from "react-router-dom";
 import {
   FormControl,
   FormLabel,
-  // Input,
+ 
   Flex,
   Box,
   Spacer,
@@ -32,13 +26,7 @@ import {
   // Button,
 } from "@chakra-ui/react";
 import "../LoginSignin/Signin.css";
-//   import Login from "./Login";
-//   import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-//   import { faUser } from "@fortawesome/free-regular-svg-icons";
-//   import {
-//     faFacebookSquare,
-//     faGooglePlusSquare,
-//   } from "@fortawesome/free-brands-svg-icons";
+
 import { CloseIcon, MinusIcon } from "@chakra-ui/icons";
 
 const Signin = () => {
@@ -83,7 +71,7 @@ const Signin = () => {
       alert("Login Successfull");
       setIsAuth(true);
       onClose();
-      navigate("/myaccount");
+      navigate("/");
     } else {
       alert("Login Failed");
     }
@@ -91,7 +79,7 @@ const Signin = () => {
   return (
     <div>
       {isAuth ? (
-        <div onClick={() => navigate("/myaccount")}>
+        <div onClick={() => navigate('/')}>
           <button ref={btnRef} colorScheme="teal" onClick={onOpen}>
             <i style={{ fontSize: "20px" }} class="fa-regular fa-user"></i>
           </button>
@@ -100,7 +88,8 @@ const Signin = () => {
         <div>
           <button ref={btnRef} colorScheme="teal" onClick={onOpen}>
             {/* person button */}
-            <i style={{ fontSize: "20px" }} class="fa-regular fa-user"></i> 
+            <h1  style={{fontWeight:"bold" , marginLeft : "50px" }} >Login/Signup</h1>
+            {/* <i style={{ fontSize: "20px" }} class="fa-regular fa-user"></i>  */}
           </button>
           <Drawer
             isOpen={isOpen}
