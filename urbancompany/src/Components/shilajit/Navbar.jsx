@@ -47,7 +47,7 @@ export default function Navbar() {
     { title: "Blog", link: "/blog" },
     { title: "Register as Proffessional", link: "/" },
     { title: "My Bookings", link: "/bookings" },
-    { title: "Login/signup", link: "/login" },
+    // { title: "Login/signup", link: "/login" },
   ];
 
   return (
