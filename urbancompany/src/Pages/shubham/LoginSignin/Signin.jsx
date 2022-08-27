@@ -71,7 +71,7 @@ const Signin = () => {
       alert("Login Successfull");
       setIsAuth(true);
       onClose();
-      navigate("/myaccount");
+      navigate("/");
     } else {
       alert("Login Failed");
     }
@@ -79,7 +79,7 @@ const Signin = () => {
   return (
     <div>
       {isAuth ? (
-        <div onClick={() => navigate("/myaccount")}>
+        <div onClick={() => navigate('/')}>
           <button ref={btnRef} colorScheme="teal" onClick={onOpen}>
             <i style={{ fontSize: "20px" }} class="fa-regular fa-user"></i>
           </button>
@@ -88,7 +88,8 @@ const Signin = () => {
         <div>
           <button ref={btnRef} colorScheme="teal" onClick={onOpen}>
             {/* person button */}
-            <i style={{ fontSize: "20px" }} class="fa-regular fa-user"></i> 
+            <h1  style={{fontWeight:"bold" , marginLeft : "50px" }} >Login/Signup</h1>
+            {/* <i style={{ fontSize: "20px" }} class="fa-regular fa-user"></i>  */}
           </button>
           <Drawer
             isOpen={isOpen}

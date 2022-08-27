@@ -16,7 +16,15 @@ import OfferPage from "../../Components/Rabi/OfferPage";
 import NewCategoryLunches from "../../Components/Rabi/NewCategoryLunches";
 import Appliances from "../../Components/Rabi/Appliances";
 import { SalonServices } from "../../Components/Rabi/SalonServices";
+
 import { Link as RouterLink } from "react-router-dom";
+
+import { CleaningAndPestControl } from "../../Components/Rabi/CleaningAndPestControl";
+import LuxuryExperience from "../../Components/Rabi/LuxuryExperience";
+import HomeRepair from "../../Components/Rabi/HomeRepair";
+
+
+
 const AllServices = () => {
   return (
     <Box bgColor="#f2f4f6">
@@ -150,6 +158,9 @@ const AllServices = () => {
       <NewCategoryLunches />
       <Appliances />
       <SalonServices />
+      <CleaningAndPestControl />
+      <LuxuryExperience />
+      <HomeRepair />
     </Box>
   );
 };

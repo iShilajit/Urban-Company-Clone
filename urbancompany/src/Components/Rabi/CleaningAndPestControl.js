@@ -1,16 +1,17 @@
 import React from "react";
 import { Flex, Box } from "@chakra-ui/react";
-import a from "../../Pages/Rabi/images/salonprime.jpg";
-import b from "../../Pages/Rabi/images/salonformen.jpg";
-import c from "../../Pages/Rabi/images/spaforwomen.jpg";
-import d from "../../Pages/Rabi/images/massageformen.jpg";
-import e from "../../Pages/Rabi/images/partymakeup.jpg";
+import a from "../../Pages/Rabi/images/bathroomCleaning.jpg";
+import b from "../../Pages/Rabi/images/fullhomecleaning.jpg";
+import c from "../../Pages/Rabi/images/sofacleaning.jpg";
+import d from "../../Pages/Rabi/images/cockroachcleaning.jpg";
+import e from "../../Pages/Rabi/images/bedbugcontrol.jpg";
+import f from "../../Pages/Rabi/images/termitecontrol.jpg";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./OfferPage.css";
 
-export const SalonServices = () => {
+export const CleaningAndPestControl = () => {
   let settings = {
     dot: true,
     infinite: true,
@@ -21,44 +22,44 @@ export const SalonServices = () => {
   };
   return (
     <Box ml="200px" height="600px">
-    <h1 style={{ fontSize: "50px" }}>Salon, Spa and Massage Services</h1>
-    <p>Hygienic & Single use products | Low-contact services</p>
+    <h1 style={{ fontSize: "50px" }}>Cleaning & Pest Control</h1>
       <Box style={{ marginTop: "100px", width: "1500px" }}>
         <Slider {...settings}>
           <div>
             <div>
               <img width="300px" alt="Big Home Rush" src={a}></img>
             </div>
-            <p>Salon Prime</p>
-            <p>Free Waxing</p>
+            <p>Bathroom And Carpet Cleaning</p>
           </div>
           <div>
             <div>
               <img width="300px" alt="Big Home Rush" src={b}></img>
             </div>
-            <p>salon For Men</p>
-            <p>flat ₹100 off</p>
+            <p>Full Home Cleaning</p>
           </div>
           <div>
             <div>
               <img width="300px" alt="Big Home Rush" src={c}></img>
             </div>
-            <p>Spa For Women</p>
-            <p>Free Head Massage</p>
+            <p>Sofa & Carpet Cleaning</p>
           </div>
           <div>
             <div>
               <img width="300px" alt="Big Home Rush" src={d}></img>
             </div>
-            <p>Massage For Men</p>
-            <p>Start At ₹499</p>
+            <p>Cockroach, Ant & General Pest Control</p>
           </div>
           <div>
             <div>
               <img width="300px" alt="Big Home Rush" src={e}></img>
             </div>
-            <p>Party Makeup</p>
-            <p>Artists trained by Chandin Singh Studio</p>
+            <p>Bed Bugs Control</p>
+          </div>
+          <div>
+            <div>
+              <img width="300px" alt="Big Home Rush" src={f}></img>
+            </div>
+            <p>Termite Control</p>
           </div>
         </Slider>
       </Box>
