@@ -6,7 +6,7 @@ import { Heading, Box, Flex, Image, Text } from '@chakra-ui/react'
 
 function Lifestyle() {
   return (
-    <Box pl="100px" pr="100px"  h="1000px" textAlign="left" >
+    <Box pl="100px" pr="100px"  h="1300px" textAlign="left" >
      <Flex gap="30px">
       {/* Box1  */}
       <Box w="33.5%" >
