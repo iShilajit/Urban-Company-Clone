@@ -10,13 +10,7 @@ import {
   Button,
   Input,
   useDisclosure,
-  Modal,
-  ModalOverlay,
-  ModalContent,
-  ModalHeader,
-  ModalFooter,
-  ModalBody,
-  ModalCloseButton,
+
 } from "@chakra-ui/react";
 import Login from './Login'
 
@@ -24,7 +18,7 @@ import { useNavigate } from "react-router-dom";
 import {
   FormControl,
   FormLabel,
-  // Input,
+ 
   Flex,
   Box,
   Spacer,
@@ -32,13 +26,7 @@ import {
   // Button,
 } from "@chakra-ui/react";
 import "../LoginSignin/Signin.css";
-//   import Login from "./Login";
-//   import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-//   import { faUser } from "@fortawesome/free-regular-svg-icons";
-//   import {
-//     faFacebookSquare,
-//     faGooglePlusSquare,
-//   } from "@fortawesome/free-brands-svg-icons";
+
 import { CloseIcon, MinusIcon } from "@chakra-ui/icons";
 
 const Signin = () => {

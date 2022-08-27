@@ -11,14 +11,14 @@ import {
   HStack,
   Link,
   IconButton,
-  Button,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  MenuDivider,
+  // Button,
+  // Menu,
+  // MenuButton,
+  // MenuList,
+  // MenuItem,
+  // MenuDivider,
   useDisclosure,
-  useColorModeValue,
+  // useColorModeValue,
   Stack,
   Image,
 } from "@chakra-ui/react";
@@ -26,19 +26,19 @@ import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import { Link as RouterLink } from "react-router-dom";
 import Signin from "../../Pages/shubham/LoginSignin/Signin";
 
-const NavLink = ({ children }) => (
-  <Link
-    px={2}
-    py={1}
-    rounded={"md"}
-    _hover={{
-      textDecoration: "none",
+// const NavLink = ({ children }) => (
+//   <Link
+//     px={2}
+//     py={1}
+//     rounded={"md"}
+//     _hover={{
+//       textDecoration: "none",
       
-    }}
-  >
-    {children}
-  </Link>
-);
+//     }}
+//   >
+//     {children}
+//   </Link>
+// );
 
 export default function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -47,6 +47,7 @@ export default function Navbar() {
     { title: "Blog", link: "/blog" },
     { title: "Register as Proffessional", link: "/" },
     { title: "My Bookings", link: "/bookings" },
+    { title: "Login/signup", link: "/login" },
   ];
 
   return (
