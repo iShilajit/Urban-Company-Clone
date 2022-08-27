@@ -19,11 +19,13 @@ import { SalonServices } from "../../Components/Rabi/SalonServices";
 import { CleaningAndPestControl } from "../../Components/Rabi/CleaningAndPestControl";
 import LuxuryExperience from "../../Components/Rabi/LuxuryExperience";
 import HomeRepair from "../../Components/Rabi/HomeRepair";
+import Navbar from "../../Components/shilajit/Navbar";
 
 
 const AllServices = () => {
   return (
     <Box bgColor="#f2f4f6">
+    <Navbar />
       <Box>
         <Box>
           <img
