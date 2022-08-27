@@ -1,0 +1,103 @@
+
+
+        .expmonth {
+            border-radius: 5px;
+            width: 100px;
+            height: 40px;
+            /* border: 2 px solid red; */
+        }
+
+        .row {
+            /* border: 2px solid red; */
+           width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+
+                        /* border: solid; */
+                        /* justify-content: center; */
+                        
+        }
+
+        .col-25,
+        .col-50,
+        .col-75 {
+            padding: 0 16px;
+        }
+
+        .container {
+            /* border: 3px soild red; */
+             /* border: 2px solid red; */
+              width:850px;
+              margin-top: 10%;
+              margin-left: 33%;
+            background-color: #f2f2f2;
+            padding: 5px 20px 15px 20px;
+            /* border: 1px solid lightgrey; */
+            border-radius: 3px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+             margin-left: 7%;
+             /* text-align: left; */
+             /* padding-left: 0%; */
+        }
+
+        input {
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        label {
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .icon-container {
+            margin-bottom: 20px;
+            padding: 7px 0;
+            font-size: 24px;
+        }
+
+        .btn {
+         
+            color: white;
+            background-color:  rgb(60, 107, 220);
+            /* padding: 12px;
+            margin: 10px 0; */
+            margin-top: 50px;
+            margin-left: 6%;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 17px;
+            box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+           
+        }
+
+        .btn:hover {
+            color: white;
+            background-color:  rgb(2, 20, 59);
+            transition: 0.5s;
+            
+        }
+
+        a {
+            color: #2196F3;
+        }
+
+        hr {
+            border: 1px solid lightgrey;
+        }
+
+        span.price {
+            float: right;
+            color: grey;
+        }
+
+       .fathercont{
+           /* border: 1px solid black; */
+           /* padding-left: 0%; */
+           text-align: left;
+
+       }

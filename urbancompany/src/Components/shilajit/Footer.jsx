@@ -18,7 +18,7 @@ import {
   Divider,
   Image,
 } from "@chakra-ui/react";
-import { NavLink } from "react-router-dom";
+import { Link as RouterLink } from "react-router-dom";
 
 const Footer = () => {
   const city = [
@@ -80,7 +80,11 @@ const Footer = () => {
          _hover={{ color: "white" }}
          _focus={{ boxShadow: "outline" }}
         color="#888" >
+             <RouterLink to="/about">
+              
+          
           <WrapItem cursor="pointer" >About Us</WrapItem>
+          </RouterLink>
           <WrapItem>UC Impact</WrapItem>
           <WrapItem>Terms & Conditions</WrapItem>
           <WrapItem>Privacy Policy</WrapItem>
@@ -184,12 +188,14 @@ const Footer = () => {
         <Divider orientation="horizontal" />
         <Flex justifyContent={"space-between"}>
           <Box display="flex" alignItems="center" gap="1rem">
+          <RouterLink to="/">
             <Image
               src="https://res.cloudinary.com/urbanclap/image/upload/images/growth/home-screen/1631097450980-d2de38.png"
               alt="ucLogo"
               h="50"
               w="150"
             />
+            </RouterLink>
             <Text fontSize="12px">
               © 2014-22 UrbanClap Technologies India Pvt. Ltd
             </Text>

@@ -1,0 +1,198 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "package": "Haircut+BreadGrooming+Free 10 min head",
+      "rate": "4.84",
+      "sucscriber":"256.7k",
+      "img":"",
+      "price": "449",
+      "min": "55",
+      "delivery":"Get Free",
+      "des":"Man's Haircut \n Bread shape & Style"
+
+    },
+    {
+      "id": 2,
+      "package": "Haircut+Shave+Free 10 min head",
+      "rate": "4.83",
+      "sucscriber":"256.7k",
+      "img":"",
+      "price": "399",
+      "min": "50",
+      "delivery":"Get Free",
+      "des":"Clean Shave / Moustache Grooming \n Man's Haircut "
+
+    },
+    {
+      "id": 3,
+      "package": "Haircut + Massage",
+      "rate": "4.83",
+      "sucscriber":"256.7k",
+      "img":"",
+      "price": "449",
+      "min": "55",
+      "delivery":"Get Free",
+      "des":"Man's Haircut \n 20 min Head Massage"
+
+    },
+    {
+      "id": 4,
+      "package": "Father & Kid's Haircut",
+      "rate": "4.83",
+      "sucscriber":"212k",
+      "img":"",
+      "price": "599",
+      "min": "1hr 10",
+      "delivery":"",
+      "des":"Man's Haircut \n Kids Haircurt(Boys)"
+
+    },
+    {
+      "id": 5,
+      "package": "Haircut + Face Care",
+      "rate": "4.82",
+      "sucscriber":"239.5k",
+      "img":"",
+      "price": "649",
+      "min": "50",
+      "delivery":"",
+      "des":"Face & Neck Detan Pack \n Man's Haircut "
+
+    },
+    {
+      "id": 6,
+      "package": "Haircut + Hair Color",
+      "rate": "4.83",
+      "sucscriber":"229.2k",
+      "img":"",
+      "price": "549",
+      "min": "60",
+      "delivery":"",
+      "des":"Garnier Color Naturals \n Man's Haircut "
+
+    },
+    {
+      "id": 7,
+      "package": "Make Your Own Package",
+      "rate": "4.82",
+      "sucscriber":"128.6k",
+      "img":"",
+      "price": "1249",
+      "min": "2hr",
+      "delivery":"Get Free",
+      "des":"Man's Haircut \n 10 min Head Massage"
+
+    },
+    {
+      "id": 8,
+      "package": "Haircut for Men & kid's",
+      "rate": "4.82",
+      "sucscriber":"128.6k",
+      "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto,w_96,dpr_1,fl_progressive:steep,q_auto/images/growth/luminosity/1651735873259-9ad829.png",
+      "price": "1249",
+      "min": "2hr 10",
+      "delivery":"BESTSELLER",
+      "des":"Man's Haircut \n 10 min Head Massage"
+
+    },
+    {
+      "id": 8,
+      "package": "Haircut for 2",
+      "rate": "4.85",
+      "sucscriber":"128.6k",
+      "img":"",
+      "price": "449",
+      "min": "60",
+      "delivery":"Get Free",
+      "des":"pack of 2 Man's Haircut"
+
+    },
+    {
+      "id": 9,
+      "package": "kid's Haircut",
+      "rate": "4.82",
+      "sucscriber":"128.6k",
+      "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto,w_96,dpr_1,fl_progressive:steep,q_auto/images/growth/home-screen/1616494759820-956198.jpeg",
+      "price": "249",
+      "min": "30",
+      "delivery":"",
+      "des":"kid's Haircut"
+
+    },
+    {
+      "id": 10,
+      "package": "Haircut + Bread Grooming + Massage",
+      "rate": "4.84",
+      "sucscriber":"228.6k",
+      "img":"",
+      "price": "549",
+      "min": "1 hr 5",
+      "delivery":"",
+      "des":"Man's Haircut"
+
+    },
+    {
+      "id": 11,
+      "package": "Hair Color with Product",
+      "rate": "4.82",
+      "sucscriber":"1.6k",
+      "img":"",
+      "price": "299",
+      "min": "1 hr 5",
+      "delivery":"",
+      "des":"Ammonia-free Product for best results"
+
+    },
+    {
+      "id": 12,
+      "package": "Hair Color-Application Only",
+      "rate": "4.80",
+      "sucscriber":"1.6k",
+      "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto,w_96,dpr_1,fl_progressive:steep,q_auto/images/growth/luminosity/1651660889736-7c3f9d.png",
+      "price": "199",
+      "min": "40",
+      "delivery":"",
+      "des":"Complete coverage by grey hair from tip to root"
+
+    },
+    {
+      "id": 13,
+      "package": "Clean Shave/Moustache Grooming",
+      "rate": "4.83",
+      "sucscriber":"56k",
+      "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto,w_96,dpr_1,fl_progressive:steep,q_auto/images/growth/home-screen/1629192918292-196558.jpeg",
+      "price": "149",
+      "min": "25",
+      "delivery":"",
+      "des":"BreadGrooming and shape for best results"
+
+    },
+    {
+      "id": 14,
+      "package": "Bread Color with Product",
+      "rate": "4.70",
+      "sucscriber":"964",
+      "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto,w_96,dpr_1,fl_progressive:steep,q_auto/images/growth/home-screen/1640852398247-6bb793.png",
+      "price": "199",
+      "min": "30",
+      "delivery":"",
+      "des":"Color Patchy grey breads with a truly natural look"
+
+    },
+    {
+      "id": 15,
+      "package": "Bread Color & Styleing",
+      "rate": "4.84",
+      "sucscriber":"86.1k",
+      "img":"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto,w_96,dpr_1,fl_progressive:steep,q_auto/images/growth/home-screen/1629192918292-196558.jpeg",
+      "price": "199",
+      "min": "25",
+      "delivery":"",
+      "des":"shave bread for best results"
+
+    }
+    
+  ]
+  
+}
