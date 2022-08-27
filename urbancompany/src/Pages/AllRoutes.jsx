@@ -11,6 +11,9 @@ import Signin from './shubham/LoginSignin/Signin'
 import SingleService from './shilajit/SingleService'
 import Haircare from './Taruna/Haircare'
 
+import Summary from './Taruna/Summary'
+import { Secpay } from './shubham/Sec_payment'
+
 const AllRoutes = () => {
   return (
     <div>
@@ -29,8 +32,8 @@ const AllRoutes = () => {
             <Route path="/about" element={<About/>}/>
             <Route path="/services" element={<SingleService/>}/>
             <Route path="/haircare" element={<Haircare/>}/>
-            <Route path="/" element={<Home/>}/>
-            <Route path="/" element={<Home/>}/>
+            <Route path="/cart" element={<Summary/>}/>
+            <Route path="/payment" element={<Secpay/>}/>
         </Routes>
         <Footer/>
     </div>
