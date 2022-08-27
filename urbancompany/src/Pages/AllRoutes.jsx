@@ -9,6 +9,7 @@ import About from './shilajit/About'
 import Signin from './shubham/LoginSignin/Signin'
 
 import SingleService from './shilajit/SingleService'
+import Haircare from './Taruna/Haircare'
 
 const AllRoutes = () => {
   return (
@@ -27,9 +28,9 @@ const AllRoutes = () => {
             <Route path="/blog" element={<Final/>}/>
             <Route path="/about" element={<About/>}/>
             <Route path="/services" element={<SingleService/>}/>
+            <Route path="/haircare" element={<Haircare/>}/>
             <Route path="/" element={<Home/>}/>
             <Route path="/" element={<Home/>}/>
-           
         </Routes>
         <Footer/>
     </div>
