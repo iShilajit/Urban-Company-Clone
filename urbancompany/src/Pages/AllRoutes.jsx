@@ -6,6 +6,7 @@ import Home from './shilajit/Home'
 import AllServices from './Rabi/AllServices'
 import Final from './Taruna/Final'
 import About from './shilajit/About'
+import Signin from './shubham/LoginSignin/Signin'
 const AllRoutes = () => {
   return (
     <div>
@@ -14,7 +15,7 @@ const AllRoutes = () => {
             <Route path="/" element={<Home/>}/>
             <Route path="/allservices" element={<AllServices/>}/>
             <Route path="/login" element={<Home/>}/>
-            <Route path="/signup" element={<Home/>}/>
+            <Route path="/signup" element={<Signin/>}/>
             <Route path="/blog" element={<Final/>}/>
             <Route path="/about" element={<About/>}/>
            

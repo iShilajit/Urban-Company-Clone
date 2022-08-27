@@ -24,7 +24,7 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import { Link as RouterLink } from "react-router-dom";
-
+import Signin from "../../Pages/shubham/LoginSignin/Signin";
 
 const NavLink = ({ children }) => (
   <Link
@@ -121,6 +121,7 @@ export default function Navbar() {
               </Menu>
             </Flex> */}
             {/* <Login /> */}
+            <Signin></Signin>
           </HStack>
         </Flex>
 
