@@ -16,7 +16,7 @@ import OfferPage from "../../Components/Rabi/OfferPage";
 import NewCategoryLunches from "../../Components/Rabi/NewCategoryLunches";
 import Appliances from "../../Components/Rabi/Appliances";
 import { SalonServices } from "../../Components/Rabi/SalonServices";
-
+import { Link as RouterLink } from "react-router-dom";
 const AllServices = () => {
   return (
     <Box bgColor="#f2f4f6">
@@ -100,6 +100,7 @@ const AllServices = () => {
               marginRight: "20px",
             }}
           >
+            <RouterLink to="/services">
             <Box>
               <img
                 src={b}
@@ -108,6 +109,7 @@ const AllServices = () => {
               ></img>
               <h6>Salon For Women</h6>
             </Box>
+            </RouterLink>
             <Box>
               <img
                 src={c}
