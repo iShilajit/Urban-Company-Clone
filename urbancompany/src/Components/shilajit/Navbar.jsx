@@ -33,7 +33,7 @@ export default function Navbar() {
 
   const Links = [
     { title: "Blog", link: "/blog" },
-    { title: "Register as Proffessional", link: "/" },
+    { title: "Register as Proffessional", link: "/services" },
     { title: "My Bookings", link: "/bookings" },
     // { title: "Login/signup", link: "/login" },
   ];
