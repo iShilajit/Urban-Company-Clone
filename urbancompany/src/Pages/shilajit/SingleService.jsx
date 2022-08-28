@@ -16,16 +16,16 @@ const SingleService = () => {
     
   }, [dispatch])
   const handalClick=()=>{
-    navigate("/cart")
+    navigate("/:city/summary")
         }
   const womensdata=allProduct.data[0]
   return (
     <div>
-        {womensdata!==undefined? <Video title={womensdata.Salon_for_women_data[0]?.Title} videos={womensdata.Salon_for_women_data[0]?.videos}/> : ''}
+        {womensdata!=undefined? <Video title={womensdata.Salon_for_women_data[0]?.Title} videos={womensdata.Salon_for_women_data[0]?.videos}/> : ''}
 
     
 <Box display="flex">
-{womensdata!==undefined? 
+{womensdata!=undefined? 
      
 womensdata.Salon_for_women_data[0].package.map((val,index) =>{
   return(<>
@@ -42,7 +42,7 @@ womensdata.Salon_for_women_data[0].package.map((val,index) =>{
 </Box>
 <Box height="500px" width="60%" border="" overflow="auto" marginLeft="30px" marginBottom="10px">
 <Box marginBottom="30px" >
-{womensdata!==undefined? 
+{womensdata!=undefined? 
      
      womensdata.Salon_for_women_data[0].packages_components1.map((val,index) =>{
        return(<>
@@ -52,7 +52,7 @@ womensdata.Salon_for_women_data[0].package.map((val,index) =>{
      : ""}
      </Box>
 <Box marginBottom="30px">
-{womensdata!==undefined? 
+{womensdata!=undefined? 
      
      womensdata.Salon_for_women_data[0].packages_components2.map((val,index) =>{
        return(<>
@@ -63,7 +63,7 @@ womensdata.Salon_for_women_data[0].package.map((val,index) =>{
 </Box>
 </Box>
 
-<Button colorScheme='purple' size='lg' onClick={handalClick}>
+<Button colorScheme='blue' size='lg' onClick={handalClick}>
 View Cart
 </Button>
 

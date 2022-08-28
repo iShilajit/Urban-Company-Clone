@@ -20,18 +20,19 @@ import { Link as RouterLink } from "react-router-dom";
 import { CleaningAndPestControl } from "../../Components/Rabi/CleaningAndPestControl";
 import LuxuryExperience from "../../Components/Rabi/LuxuryExperience";
 import HomeRepair from "../../Components/Rabi/HomeRepair";
+
 import Navbar from "../../Components/shilajit/Navbar";
+
 const AllServices = () => {
   const location = localStorage.getItem("location");
   console.log(location)
   return (
     <Box bgColor="#f2f4f6">
-      <Navbar />
       <Box>
         <Box>
           <img
             style={{
-              height: "580px",
+              height: "700px",
               width: "100%",
               filter: "brightness(60%)",
             }}
@@ -42,7 +43,7 @@ const AllServices = () => {
         <Box
           style={{
             position: "absolute",
-            right: "420px",
+            right: "550px",
             top: "200px",
             color: "white",
           }}
@@ -50,13 +51,13 @@ const AllServices = () => {
           <p>Home / {location}</p>
           <p
             style={{
-              fontSize: "50px",
+              fontSize: "60px",
             }}
           >
             Home services, on demand.
           </p>
         </Box>
-        <Box style={{ position: "absolute", top: "400px", right: "280px" }}>
+        <Box style={{ position: "absolute", top: "400px", right: "450px" }}>
           <Flex>
             <Box>
               <button
@@ -73,7 +74,7 @@ const AllServices = () => {
             <Box>
               <input
                 style={{
-                  padding: "15px",
+                  padding:"15px",
                   marginLeft: "20px",
                   height: "70px",
                   width: "700px",
@@ -88,10 +89,10 @@ const AllServices = () => {
         </Box>
         <Box
           style={{
-            height: "180px",
+            height: "200px",
             backgroundColor: "white",
-            width: "65%",
-            marginLeft: "290px",
+            width: "55%",
+            marginLeft: "480px",
             position: "absolute",
             top: "600px",
             borderRadius: "10px",
@@ -108,55 +109,47 @@ const AllServices = () => {
             }}
           >
             <RouterLink to="/services">
-              <Box>
-                <img
-                  src={b}
-                  alt="salon for women"
-                  style={{ height: "70px", width: "70px", marginLeft: "40px" }}
-                ></img>
-                <h6>Salon For Women</h6>
-              </Box>
+            <Box>
+              <img
+                src={b}
+                alt="salon for women"
+                style={{ height: "70px", width: "70px", marginLeft: "40px" }}
+              ></img>
+              <h6>Salon For Women</h6>
+            </Box>
             </RouterLink>
-            <RouterLink to="/services">
-              <Box>
-                <img
-                  src={c}
-                  alt="hair skin & nails"
-                  style={{ height: "70px", width: "70px", marginLeft: "40px" }}
-                ></img>
-                <p>Hair,Skin & Nails</p>
-              </Box>
-            </RouterLink>
-            <RouterLink to="/services">
-              <Box>
-                <img
-                  src={d}
-                  alt="women's therapies"
-                  style={{ height: "70px", width: "70px", marginLeft: "40px" }}
-                ></img>
-                <p>Women's Therapies</p>
-              </Box>
-            </RouterLink>
-            <RouterLink to="/services">
-              <Box>
-                <img
-                  src={e}
-                  alt="salon for men"
-                  style={{ height: "70px", width: "70px", marginLeft: "40px" }}
-                ></img>
-                <p>Salon For Men</p>
-              </Box>
-            </RouterLink>
-            <RouterLink to="/services">
-              <Box>
-                <img
-                  src={f}
-                  alt="men's therapies"
-                  style={{ height: "70px", width: "70px", marginLeft: "40px" }}
-                ></img>
-                <p>Men's Therapies</p>
-              </Box>
-            </RouterLink>
+            <Box>
+              <img
+                src={c}
+                alt="hair skin & nails"
+                style={{ height: "70px", width: "70px", marginLeft: "40px" }}
+              ></img>
+              <p>Hair,Skin & Nails</p>
+            </Box>
+            <Box>
+              <img
+                src={d}
+                alt="women's therapies"
+                style={{ height: "70px", width: "70px", marginLeft: "40px" }}
+              ></img>
+              <p>Women's Therapies</p>
+            </Box>
+            <Box>
+              <img
+                src={e}
+                alt="salon for men"
+                style={{ height: "70px", width: "70px", marginLeft: "40px" }}
+              ></img>
+              <p>Salon For Men</p>
+            </Box>
+            <Box>
+              <img
+                src={f}
+                alt="men's therapies"
+                style={{ height: "70px", width: "70px", marginLeft: "40px" }}
+              ></img>
+              <p>Men's Therapies</p>
+            </Box>
           </Flex>
         </Box>
       </Box>

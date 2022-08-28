@@ -53,7 +53,7 @@ const Packagedrop = ({title,price,para,time}) => {
         </div>
   
         <div style={{ textAlign: "left" }}>
-          {para !== undefined
+          {para != undefined
             ? para.map((val, index) => {
                 return (
                   <>

@@ -2,18 +2,16 @@
 import React from "react";
 
 import { useState } from "react";
-import { Flex, Box, Image, Text,  Button, Heading } from '@chakra-ui/react'
+import { Flex, Box, Image, Text, Spacer, Button, Heading } from '@chakra-ui/react'
 import styles from "./Blognav.module.css"
+
 
 import { useNavigate} from "react-router-dom"
 
 const Summary = () => {
- const navigate = useNavigate()
+ 
   const [count, setCount] = useState(1);
   const [price, setPrice] = useState(553);
-  const handlepay=()=>{
-   navigate("/payment",{replace:true})
-  }
 
   
   return (
@@ -99,7 +97,10 @@ const Summary = () => {
           <Button> Edit Package</Button>
           </Box>
       </Box>
-    
+      
+      
+      
+      {/* rigth  */}
       <Box w="48%">
         <Box>
 
@@ -143,10 +144,8 @@ const Summary = () => {
               </Flex>
             </Box>
             <Box ml="80px" mt="200px">
-           
-           
-            <Button w="400px" bg="#6e42e5" color="white" onClick={handlepay}>Proceed</Button>
-           
+
+            <Button w="400px" bg="#6e42e5" color="white">Proceed</Button>
             </Box>
       </Box>
     </Flex>

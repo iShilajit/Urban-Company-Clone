@@ -22,42 +22,42 @@ const OfferPage = () => {
     cssEase: "linear",
   };
   return (
-    <Box ml="200px" height="260px">
-      <Box style={{ marginTop: "100px", width: "1200px" }}>
+    <Box ml="200px" height="300px">
+      <Box style={{ marginTop: "100px", width: "1500px" }}>
         <Slider {...settings}>
           <div>
             <div>
-              <img width="280px" alt="Big Home Rush" src={a}></img>
+              <img width="300px" alt="Big Home Rush" src={a}></img>
             </div>
           </div>
           <div>
             <div>
-              <img width="280px" alt="Big Home Rush" src={b}></img>
+              <img width="300px" alt="Big Home Rush" src={b}></img>
             </div>
           </div>
           <div>
             <div>
-              <img width="280px" alt="Big Home Rush" src={c}></img>
+              <img width="300px" alt="Big Home Rush" src={c}></img>
             </div>
           </div>
           <div>
             <div>
-              <img width="280px" alt="Big Home Rush" src={d}></img>
+              <img width="300px" alt="Big Home Rush" src={d}></img>
             </div>
           </div>
           <div>
             <div>
-              <img width="280px" alt="Big Home Rush" src={e}></img>
+              <img width="300px" alt="Big Home Rush" src={e}></img>
             </div>
           </div>
           <div>
             <div>
-              <img width="280px" alt="Big Home Rush" src={f}></img>
+              <img width="300px" alt="Big Home Rush" src={f}></img>
             </div>
           </div>
           <div>
             <div>
-              <img width="280px" alt="Big Home Rush" src={g}></img>
+              <img width="300px" alt="Big Home Rush" src={g}></img>
             </div>
           </div>
         </Slider>

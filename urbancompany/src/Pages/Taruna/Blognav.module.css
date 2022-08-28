@@ -36,32 +36,3 @@
     color:whitesmoke;
     background-color:whitesmoke
   }
-
-
-  .carouseldata{
-    cursor: grab;
-    overflow: hidden;
- }
-
- .blogbody{
-   margin: 0 ;
- }
- .item{
-   min-width: 15rem;
-   /* min-height: 40rem; */
-   /* padding: 40px; */
-   /* pointer-events: none; */
-
- }
-
- .boxflexg{
-   pointer-events: none;
- }
-
- .uu:hover{
-  text-decoration: underline;
- }
-
- .font{
-  font-family: "Trirong", serif;
- }

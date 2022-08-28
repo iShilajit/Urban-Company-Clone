@@ -21,7 +21,7 @@ const Wedding = () => {
           <Text fontSize="13px" color={"gray"}>AUGUST 19, 2019</Text>
      </Box>
     <Box pt="15px">
-          <Heading as="h2"size='xl' className={styles.uu}>20 Wedding Saree Ideas To Inspire You!</Heading>
+          <Heading as="h2"size='xl'>20 Wedding Saree Ideas To Inspire You!</Heading>
     </Box>
     <Text mt="15px" fontSize="18px" w="450px" >
     That, there is no match to the grace and elegance of an Indian saree, is old news. No wonder generations of women opted for the timeless nine yards on their wedding days…
@@ -37,7 +37,7 @@ const Wedding = () => {
                     <Box>
                         
                         <Box mt="7px">
-                            <Text fontSize="12px" className={styles.uu} >7 Mandap Decor Designs Based On The Foliage & Greenery Trend</Text>
+                            <Text fontSize="12px" >7 Mandap Decor Designs Based On The Foliage & Greenery Trend</Text>
                         </Box>
                     </Box>
                 
@@ -55,7 +55,7 @@ const Wedding = () => {
                     <Box>
                         
                         <Box mt="7px">
-                            <Text fontSize="12px" className={styles.uu} >5 Brides Who Chose To Go Super Minimal With Their Makeup & Looked Fabulous!</Text>
+                            <Text fontSize="12px" >5 Brides Who Chose To Go Super Minimal With Their Makeup & Looked Fabulous!</Text>
                         </Box>
                     </Box>
                  </Flex>
@@ -71,7 +71,7 @@ const Wedding = () => {
                     <Box>
                         
                         <Box mt="7px">
-                            <Text fontSize="12px" className={styles.uu} >Stage Decor Ideas for Smaller Functions (Engagement, Cocktail, Sangeet!)</Text>
+                            <Text fontSize="12px" >Stage Decor Ideas for Smaller Functions (Engagement, Cocktail, Sangeet!)</Text>
                         </Box>
                     </Box>
                  </Flex>
@@ -88,7 +88,7 @@ const Wedding = () => {
                     <Box>
                       
                         <Box mt="7px">
-                            <Text fontSize="12px" className={styles.uu} >14 Best Stage Decoration Ideas For Indian Weddings!</Text>
+                            <Text fontSize="12px" >14 Best Stage Decoration Ideas For Indian Weddings!</Text>
                         </Box>
                     </Box>
                  </Flex>
@@ -115,7 +115,7 @@ const Wedding = () => {
                     <Text fontSize="13px" color={"gray"}>SEPTEMBER 29, 2020</Text>
                 </Box>
                 <Box pt="15px">
-                        <Heading as="h2"size='xl' className={styles.uu}>Wallpapers and Stencils Are a Great Way to Go, Here’s Why</Heading>
+                        <Heading as="h2"size='xl'>Wallpapers and Stencils Are a Great Way to Go, Here’s Why</Heading>
                     </Box>
 
                     <Text mt="15px" fontSize="18px" w="450px" >
@@ -132,7 +132,7 @@ const Wedding = () => {
                     <Box>
                        
                         <Box mt="7px">
-                            <Text fontSize="12px"  className={styles.uu}>All You Need to Know About Enamel Painting</Text>
+                            <Text fontSize="12px" >All You Need to Know About Enamel Painting</Text>
                         </Box>
                     </Box>
                 
@@ -150,7 +150,7 @@ const Wedding = () => {
                     <Box>
                        
                         <Box mt="7px">
-                            <Text fontSize="12px" className={styles.uu}>Wood Polishing: All You Need to Know</Text>
+                            <Text fontSize="12px" >Wood Polishing: All You Need to Know</Text>
                         </Box>
                     </Box>
                  </Flex>
@@ -166,7 +166,7 @@ const Wedding = () => {
                     <Box>
                        
                         <Box mt="7px">
-                            <Text fontSize="12px" className={styles.uu}>Textured Walls: Everything You Need to Know</Text>
+                            <Text fontSize="12px" >Textured Walls: Everything You Need to Know</Text>
                         </Box>
                     </Box>
                  </Flex>
@@ -183,7 +183,7 @@ const Wedding = () => {
                     <Box>
                        
                         <Box mt="7px">
-                            <Text fontSize="12px" className={styles.uu} >Waterproofing Your Walls: All You Need to Know</Text>
+                            <Text fontSize="12px" >Waterproofing Your Walls: All You Need to Know</Text>
                         </Box>
                     </Box>
                  </Flex>
