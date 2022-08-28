@@ -23,9 +23,9 @@ function Lifestyle() {
           <Text fontSize="13px" color={"gray"}>AUGUST 25, 2020</Text>
      </Box>
     <Box pt="15px">
-          <Heading as="h2"size='xl'>Yoga for PCOS: 6 Asanas to Treat PCOS</Heading>
+          <Heading as="h2"size='xl' className={styles.uu}>Yoga for PCOS: 6 Asanas to Treat PCOS</Heading>
     </Box>
-    <Text mt="15px" fontSize="18px" w="450px" >
+    <Text mt="15px" fontSize="18px" w="450px"  >
     Polycystic ovary syndrome (PCOS) is a common hormonal problem that affects 1 out of 10 women globally. However, did you know that yoga is a great way to treat PCOS and facilitate…
                     </Text>
                     <Box mt="50px">
@@ -39,7 +39,7 @@ function Lifestyle() {
                     <Box>
                         
                         <Box mt="7px">
-                            <Text fontSize="12px" >Yoga for Thyroid: Different Asanas </Text>
+                            <Text fontSize="12px" className={styles.uu} >Yoga for Thyroid: Different Asanas </Text>
                         </Box>
                     </Box>
                 
@@ -57,7 +57,7 @@ function Lifestyle() {
                     <Box>
                         
                         <Box mt="7px">
-                            <Text fontSize="12px" >Health Benefits of Anulom Vilom Pranayama</Text>
+                            <Text fontSize="12px" className={styles.uu} >Health Benefits of Anulom Vilom Pranayama</Text>
                         </Box>
                     </Box>
                  </Flex>
@@ -73,7 +73,7 @@ function Lifestyle() {
                     <Box>
                         
                         <Box mt="7px">
-                            <Text fontSize="12px" >6 Yoga Asanas To Help You Burn Your Belly Fat</Text>
+                            <Text fontSize="12px" className={styles.uu} >6 Yoga Asanas To Help You Burn Your Belly Fat</Text>
                         </Box>
                     </Box>
                  </Flex>
@@ -90,7 +90,7 @@ function Lifestyle() {
                     <Box>
                       
                         <Box mt="7px">
-                            <Text fontSize="12px" >Is Intermittent Fasting Safe For Women?</Text>
+                            <Text fontSize="12px" className={styles.uu} >Is Intermittent Fasting Safe For Women?</Text>
                         </Box>
                     </Box>
                  </Flex>
@@ -117,7 +117,7 @@ function Lifestyle() {
                     <Text fontSize="13px" color={"gray"}>SEPTEMBER 3, 2020</Text>
                 </Box>
                 <Box pt="15px">
-                        <Heading as="h2"size='xl'>How To Prevent Dandruff In Men</Heading>
+                        <Heading as="h2"size='xl' className={styles.uu}>How To Prevent Dandruff In Men</Heading>
                     </Box>
 
                     <Text mt="15px" fontSize="18px" w="450px" >
@@ -134,7 +134,7 @@ function Lifestyle() {
                     <Box>
                        
                         <Box mt="7px">
-                            <Text fontSize="12px" >
+                            <Text fontSize="12px" className={styles.uu}>
 Men’s Hair Colouring: Home or Salon?</Text>
                         </Box>
                     </Box>
@@ -153,7 +153,7 @@ Men’s Hair Colouring: Home or Salon?</Text>
                     <Box>
                        
                         <Box mt="7px">
-                            <Text fontSize="12px" >Men’s Hairstyles—3 Classics and How to Do Them</Text>
+                            <Text fontSize="12px" className={styles.uu} >Men’s Hairstyles—3 Classics and How to Do Them</Text>
                         </Box>
                     </Box>
                  </Flex>
@@ -169,7 +169,7 @@ Men’s Hair Colouring: Home or Salon?</Text>
                     <Box>
                        
                         <Box mt="7px">
-                            <Text fontSize="12px" >
+                            <Text fontSize="12px" className={styles.uu} >
 Learn How to Trim Your Beard At Home!</Text>
                         </Box>
                     </Box>
@@ -187,7 +187,7 @@ Learn How to Trim Your Beard At Home!</Text>
                     <Box>
                        
                         <Box mt="7px">
-                            <Text fontSize="12px" >The Best Beard Oil In India</Text>
+                            <Text fontSize="12px" className={styles.uu} >The Best Beard Oil In India</Text>
                         </Box>
                     </Box>
                  </Flex>

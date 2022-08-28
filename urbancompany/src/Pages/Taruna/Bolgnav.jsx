@@ -1,6 +1,7 @@
 import React from 'react'
 import { Box, Flex, Image } from '@chakra-ui/react'
 import styles from "./Blognav.module.css"
+import { Link as RouterLink } from 'react-router-dom'
 const Bolgnav = () => {
   return (
     <Box border="1px solid #d3d3d3" h="50px" pl="10%" pr="10%">
@@ -18,7 +19,10 @@ const Bolgnav = () => {
          </Box>
         </Flex>
             <Box size='xs'  w="150px" color={"gray"}  className={styles.dropdowncontent}>
+                <RouterLink to="/haircare">
+
                <Box mt="14px" mb="8px" borderBottom="1px solid #d3d3d3">Hair Care</Box>
+                </RouterLink>
                <Box mb="8px" borderBottom="1px solid #d3d3d3">Make Up</Box>
                <Box mb="8px">Skincare</Box>
             </Box>

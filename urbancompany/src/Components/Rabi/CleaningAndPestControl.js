@@ -21,43 +21,43 @@ export const CleaningAndPestControl = () => {
     cssEase: "linear",
   };
   return (
-    <Box ml="200px" height="600px">
+    <Box ml="170px" height="500px">
     <h1 style={{ fontSize: "50px" }}>Cleaning & Pest Control</h1>
-      <Box style={{ marginTop: "100px", width: "1500px" }}>
+      <Box style={{ marginTop: "100px", width: "1200px" }}>
         <Slider {...settings}>
           <div>
             <div>
-              <img width="300px" alt="Big Home Rush" src={a}></img>
+              <img width="280px" alt="Big Home Rush" src={a}></img>
             </div>
             <p>Bathroom And Carpet Cleaning</p>
           </div>
           <div>
             <div>
-              <img width="300px" alt="Big Home Rush" src={b}></img>
+              <img width="280px" alt="Big Home Rush" src={b}></img>
             </div>
             <p>Full Home Cleaning</p>
           </div>
           <div>
             <div>
-              <img width="300px" alt="Big Home Rush" src={c}></img>
+              <img width="280px" alt="Big Home Rush" src={c}></img>
             </div>
             <p>Sofa & Carpet Cleaning</p>
           </div>
           <div>
             <div>
-              <img width="300px" alt="Big Home Rush" src={d}></img>
+              <img width="280px" alt="Big Home Rush" src={d}></img>
             </div>
             <p>Cockroach, Ant & General Pest Control</p>
           </div>
           <div>
             <div>
-              <img width="300px" alt="Big Home Rush" src={e}></img>
+              <img width="280px" alt="Big Home Rush" src={e}></img>
             </div>
             <p>Bed Bugs Control</p>
           </div>
           <div>
             <div>
-              <img width="300px" alt="Big Home Rush" src={f}></img>
+              <img width="280px" alt="Big Home Rush" src={f}></img>
             </div>
             <p>Termite Control</p>
           </div>

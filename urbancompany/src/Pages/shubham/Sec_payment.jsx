@@ -1,11 +1,11 @@
 import React from 'react'
 import styles from './sec_payment.module.css'
-import {Link} from "react-router-dom"
+import {Link, useNavigate} from "react-router-dom"
 
-// import  styles from "./nav.module.css"
+
  
 export const Secpay = () => {
-
+    const navigate = useNavigate()
     const [isAuth,setAuth]=React.useState(false)
 
      const   handleChange =()=>{
@@ -14,6 +14,7 @@ export const Secpay = () => {
         alert("Payment successfull, Your Reservation Details Will Be Sent To  Your Registered Mobile No.")
        
         setAuth(!isAuth)
+        navigate("/", {replace:true})
     }
 
   return (

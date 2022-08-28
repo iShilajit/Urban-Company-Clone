@@ -7,49 +7,57 @@ import d from "../../Pages/Rabi/images/plumber.jpg";
 import e from "../../Pages/Rabi/images/insuranceprotection.jpg";
 import f from "../../Pages/Rabi/images/antidiscrimation.jpg";
 import g from "../../Pages/Rabi/images/skillindia.jpg";
-
+import { Link as RouterLink } from "react-router-dom";
 
 const HomeRepair = () => {
   return (
-    <Box height="1300px">
+    <Box height="1130px">
       <h1 style={{ fontSize: "50px" }}>Home Repairs</h1>
-      <Flex mt="100px" ml="180px" gap="50px">
+      <Flex mt="100px" ml="150px" gap="15px">
+      <RouterLink to="/services">
         <Box>
           <img
-            style={{ height: "200px" }}
-            width="350px"
+            style={{ height: "180px" }}
+            width="280px"
             alt="Big Home Rush"
             src={a}
           ></img>
           <p>Furniture Making, Upholstery & Polish1</p>
         </Box>
+        </RouterLink>
+        <RouterLink to="/services">
         <Box>
           <img
-            style={{ height: "200px"}}
-            width="350px"
+            style={{ height: "180px"}}
+            width="280px"
             alt="Big Home Rush"
             src={b}
           ></img>
           <p>Carpenters</p>
         </Box>
+        </RouterLink>
+        <RouterLink to="/services">
         <Box>
           <img
-            style={{ height: "200px"}}
-            width="350px"
+            style={{ height: "180px"}}
+            width="280px"
             alt="Big Home Rush"
             src={c}
           ></img>
           <p>Electronics</p>
         </Box>
+        </RouterLink>
+        <RouterLink to="/services">
         <Box>
           <img
-            style={{ height: "200px"}}
-            width="350px"
+            style={{ height: "180px"}}
+            width="280px"
             alt="Big Home Rush"
             src={d}
           ></img>
           <p>Plumbers</p>
         </Box>
+        </RouterLink>
       </Flex>
       <img style={{marginTop:"100px"}} src={e}/>
       <img style={{marginTop:"30px"}} src={f}/>

@@ -10,7 +10,7 @@ const Beauty = () => {
         {/* box_1  */}
         <Box w="70%">
 
-          <Heading as='h1'size='lg' mt="5px" align='left'> Beauty</Heading>
+          <Heading as='h1'size='lg' mt="5px" textAlign={"left"}> Beauty</Heading>
          <Box mt="20px">
            <hr  className={styles.hrr} />
          </Box>
@@ -26,7 +26,7 @@ const Beauty = () => {
 
                 <Box>
                     <Box pt="15px">
-                        <Heading as="h2"size='xl'>Best Sheet Masks in India</Heading>
+                        <Heading  as="h2"size='xl'>Best Sheet Masks in India</Heading>
                     </Box>
                     
                     <Text mt="15px" fontSize="18px" w="450px" >
@@ -50,7 +50,7 @@ const Beauty = () => {
                             <span>SKINCARE</span>
                         </Box>
                         <Box>
-                            <Text fontSize="12px" >The Wonders of Coconut Oil for Face</Text>
+                            <Text className={styles.uu} fontSize="12px" >The Wonders of Coconut Oil for Face</Text>
                         </Box>
                     </Box>
                 
@@ -71,7 +71,7 @@ const Beauty = () => {
                             <span>SKINCARE</span>
                         </Box>
                         <Box>
-                            <Text fontSize="12px" >RICA Roll-on Waxing: The Process</Text>
+                            <Text fontSize="12px" className={styles.uu} >RICA Roll-on Waxing: The Process</Text>
                         </Box>
                     </Box>
                  </Flex>
@@ -90,7 +90,7 @@ const Beauty = () => {
                             <span>SKINCARE</span>
                         </Box>
                         <Box>
-                            <Text fontSize="12px" >All You Need to Know About the Sara Fruit Cleanup</Text>
+                            <Text fontSize="12px" className={styles.uu} >All You Need to Know About the Sara Fruit Cleanup</Text>
                         </Box>
                     </Box>
                  </Flex>
@@ -110,7 +110,7 @@ const Beauty = () => {
                             <span>SKINCARE</span>
                         </Box>
                         <Box>
-                            <Text fontSize="12px" >Best Night Creams in India for Indian Skin Types</Text>
+                            <Text fontSize="12px" className={styles.uu} >Best Night Creams in India for Indian Skin Types</Text>
                         </Box>
                     </Box>
                  </Flex>

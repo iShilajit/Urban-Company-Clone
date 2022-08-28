@@ -12,17 +12,14 @@ import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import { Link as RouterLink } from "react-router-dom";
 import Signin from "../../Pages/shubham/LoginSignin/Signin";
 
-
 export default function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   const Links = [
     { title: "Blog", link: "/blog" },
-
     { title: "Register as Proffessional", link: "/services" },
     { title: "My Bookings", link: "/booking" },
    
-
   ];
 
   return (
