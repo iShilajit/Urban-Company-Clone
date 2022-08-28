@@ -16,6 +16,7 @@ const Booking = () => {
         toast({
             title: "Product History",
             description: "No History Found ✌️",
+            position: 'top',
             status: "success",
             duration: 2000,
             isClosable: true,
