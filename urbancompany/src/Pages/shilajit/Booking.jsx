@@ -1,18 +1,25 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
-import { Box, Button, Container, Flex, Text } from "@chakra-ui/react";
+import { Box, Button, Container, Flex, Text, useToast } from "@chakra-ui/react";
 import Navbar from '../../Components/shilajit/Navbar';
 const Booking = () => {
     const navigate = useNavigate();
-
+    const toast = useToast();
     const handleClick = () => {
-      navigate("/",{replace: true});
+      navigate("/allservices",{replace: true});
     };
     const handlego=()=>{
         navigate("/cart",{replace: true});
     }
     const handlehist=()=>{
-        navigate("/allservices",{replace: true});
+        // navigate("/",{replace: true});
+        toast({
+            title: "Product History",
+            description: "No History Found ✌️",
+            status: "success",
+            duration: 2000,
+            isClosable: true,
+          })
     }
   return (
     <div>
