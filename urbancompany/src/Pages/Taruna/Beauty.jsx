@@ -10,7 +10,7 @@ const Beauty = () => {
         {/* box_1  */}
         <Box w="70%">
 
-          <Heading as='h1'size='lg' mt="5px"> Beauty</Heading>
+          <Heading as='h1'size='lg' mt="5px" align='left'> Beauty</Heading>
          <Box mt="20px">
            <hr  className={styles.hrr} />
          </Box>
