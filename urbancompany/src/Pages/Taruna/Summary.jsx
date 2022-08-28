@@ -4,7 +4,9 @@ import React from "react";
 import { useState } from "react";
 import { Flex, Box, Image, Text, Spacer, Button, Heading } from '@chakra-ui/react'
 import styles from "./Blognav.module.css"
-// import styles from "../StyleComponents/Services.module.css";
+
+
+import { useNavigate} from "react-router-dom"
 
 const Summary = () => {
  

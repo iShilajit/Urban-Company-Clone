@@ -16,16 +16,16 @@ import OfferPage from "../../Components/Rabi/OfferPage";
 import NewCategoryLunches from "../../Components/Rabi/NewCategoryLunches";
 import Appliances from "../../Components/Rabi/Appliances";
 import { SalonServices } from "../../Components/Rabi/SalonServices";
-
 import { Link as RouterLink } from "react-router-dom";
-
 import { CleaningAndPestControl } from "../../Components/Rabi/CleaningAndPestControl";
 import LuxuryExperience from "../../Components/Rabi/LuxuryExperience";
 import HomeRepair from "../../Components/Rabi/HomeRepair";
 
-
+import Navbar from "../../Components/shilajit/Navbar";
 
 const AllServices = () => {
+  const location = localStorage.getItem("location");
+  console.log(location)
   return (
     <Box bgColor="#f2f4f6">
       <Box>
@@ -48,7 +48,7 @@ const AllServices = () => {
             color: "white",
           }}
         >
-          <p>Home /</p>
+          <p>Home / {location}</p>
           <p
             style={{
               fontSize: "60px",
@@ -68,7 +68,7 @@ const AllServices = () => {
                   borderRadius: "5px",
                 }}
               >
-                Location
+               / {location}
               </button>
             </Box>
             <Box>

@@ -10,6 +10,13 @@ import Signin from './shubham/LoginSignin/Signin'
 
 import SingleService from './shilajit/SingleService'
 
+import Haircare from './Taruna/Haircare'
+
+import Summary from './Taruna/Summary'
+import { Secpay } from './shubham/Sec_payment'
+import Booking from './shilajit/Booking'
+
+
 const AllRoutes = () => {
   return (
     <div>
@@ -19,7 +26,7 @@ const AllRoutes = () => {
             <Route path="/allservices" element={<AllServices/>}/>
 
             <Route path="/login" element={<Signin/>}/>
-            <Route path="/signup" element={<Home/>}/>
+            <Route path="/booking" element={<Booking/>}/>
 
             <Route path="/login" element={<Home/>}/>
             <Route path="/signup" element={<Signin/>}/>

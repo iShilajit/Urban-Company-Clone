@@ -2,11 +2,9 @@ import React, { useState } from 'react'
 import Navbar from '../../Components/shilajit/Navbar'
 import {
   Box,
-  HStack,
   Image,
   Select,
   Text,
-  Textarea,
   VStack,
 } from "@chakra-ui/react";
 import mainimg from "../../assets/homemain.png"
