@@ -66,6 +66,7 @@ const PackageTop = ({ title, price, time, para }) => {
             <Button
               onClick={() =>
                
+                
                 toast({
                   title: "Product Added",
                   description: "We've added a package for you.",
@@ -81,7 +82,7 @@ const PackageTop = ({ title, price, time, para }) => {
         </div>
   
         <div style={{ textAlign: "left" }}>
-          {para != undefined
+          {para !== undefined
             ? para.map((val, index) => {
                 return (
                   <>

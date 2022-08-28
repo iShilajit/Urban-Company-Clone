@@ -16,15 +16,13 @@ import OfferPage from "../../Components/Rabi/OfferPage";
 import NewCategoryLunches from "../../Components/Rabi/NewCategoryLunches";
 import Appliances from "../../Components/Rabi/Appliances";
 import { SalonServices } from "../../Components/Rabi/SalonServices";
-
 import { Link as RouterLink } from "react-router-dom";
-
 import { CleaningAndPestControl } from "../../Components/Rabi/CleaningAndPestControl";
 import LuxuryExperience from "../../Components/Rabi/LuxuryExperience";
 import HomeRepair from "../../Components/Rabi/HomeRepair";
 import Navbar from "../../Components/shilajit/Navbar";
-
 const AllServices = () => {
+ 
   return (
     <Box bgColor="#f2f4f6">
       <Navbar />
@@ -68,7 +66,7 @@ const AllServices = () => {
                   borderRadius: "5px",
                 }}
               >
-                Location
+               loaction
               </button>
             </Box>
             <Box>
