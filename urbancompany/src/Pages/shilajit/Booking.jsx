@@ -15,6 +15,7 @@ const Booking = () => {
         // navigate("/",{replace: true});
         toast({
             title: "Product History",
+            position: "top",
             description: "No History Found ✌️",
             status: "success",
             duration: 2000,
