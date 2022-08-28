@@ -1,32 +1,16 @@
-
-
 import React from "react";
-
-
-
 import {
   Box,
   Flex,
-  Avatar,
   HStack,
-  Link,
   IconButton,
-  // Button,
-  // Menu,
-  // MenuButton,
-  // MenuList,
-  // MenuItem,
-  // MenuDivider,
   useDisclosure,
-  // useColorModeValue,
   Stack,
   Image,
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import { Link as RouterLink } from "react-router-dom";
 import Signin from "../../Pages/shubham/LoginSignin/Signin";
-
-
 
 export default function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -35,7 +19,7 @@ export default function Navbar() {
     { title: "Blog", link: "/blog" },
     { title: "Register as Proffessional", link: "/services" },
     { title: "My Bookings", link: "/bookings" },
-    // { title: "Login/signup", link: "/login" },
+   
   ];
 
   return (
@@ -89,27 +73,7 @@ export default function Navbar() {
               ))}
             </HStack>
 
-            {/* <Flex alignItems={"center"}>
-              <Menu>
-                <MenuButton
-                  as={Button}
-                  rounded={"full"}
-                  variant={"link"}
-                  cursor={"pointer"}
-                  minW={0}
-                  color={"whiteAlpha.900"}
-                >
-                  {"Login"}
-                </MenuButton>
-                <MenuList color={"blackAlpha.900"}>
-                  <MenuItem>Link 1</MenuItem>
-                  <MenuItem>Link 2</MenuItem>
-                  <MenuDivider />
-                  <MenuItem>Link 3</MenuItem>
-                </MenuList>
-              </Menu>
-            </Flex> */}
-            {/* <Login /> */}
+        
             <Signin></Signin>
           </HStack>
         </Flex>

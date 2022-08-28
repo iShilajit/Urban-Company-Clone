@@ -12,7 +12,7 @@ import {
   useDisclosure,
 
 } from "@chakra-ui/react";
-import Login from './Login'
+
 
 import { useNavigate } from "react-router-dom";
 import {
@@ -27,7 +27,7 @@ import {
 } from "@chakra-ui/react";
 import "../LoginSignin/Signin.css";
 
-import { CloseIcon, MinusIcon } from "@chakra-ui/icons";
+// import { CloseIcon, MinusIcon } from "@chakra-ui/icons";
 
 const Signin = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();

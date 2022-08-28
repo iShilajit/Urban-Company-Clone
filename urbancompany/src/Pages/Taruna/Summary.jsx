@@ -5,7 +5,7 @@ import { useState } from "react";
 import { Flex, Box, Image, Text,  Button, Heading } from '@chakra-ui/react'
 import styles from "./Blognav.module.css"
 
-import {Link as RouterLink, useNavigate} from "react-router-dom"
+import { useNavigate} from "react-router-dom"
 
 const Summary = () => {
  const navigate = useNavigate()
