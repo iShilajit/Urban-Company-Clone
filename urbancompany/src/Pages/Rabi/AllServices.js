@@ -22,7 +22,8 @@ import LuxuryExperience from "../../Components/Rabi/LuxuryExperience";
 import HomeRepair from "../../Components/Rabi/HomeRepair";
 import Navbar from "../../Components/shilajit/Navbar";
 const AllServices = () => {
- 
+  const location = localStorage.getItem("location");
+  console.log(location)
   return (
     <Box bgColor="#f2f4f6">
       <Navbar />
@@ -46,7 +47,7 @@ const AllServices = () => {
             color: "white",
           }}
         >
-          <p>Home /</p>
+          <p>Home / {location}</p>
           <p
             style={{
               fontSize: "50px",
@@ -66,7 +67,7 @@ const AllServices = () => {
                   borderRadius: "5px",
                 }}
               >
-               loaction
+               / {location}
               </button>
             </Box>
             <Box>
